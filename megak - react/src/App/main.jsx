@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {UsersList} from "../UsersList/UsersList.jsx";
+import {people} from "../data/people.jsx";
 
-import {Progressbar} from "./Progressbar.jsx";
-import {AnimatedProgressbar} from "./AnimatedProgressbar.jsx";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
-        <AnimatedProgressbar />
+        <UsersList users={people}/>
+
     </>
 
 )
