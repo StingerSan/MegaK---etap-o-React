@@ -35,16 +35,16 @@ export const people  = [
         "title": "miss",
         "picture": "algolia/women/pragati.png"
     },
-    {
-        "email": "christoffer.christiansen@example.com",
-        "gender": "male",
-        "phone_number": "05761325",
-        "birthdate": 244475798,
-        "location": {
-            "street": "3391 pilevangen",
-            "city": "overby lyng",
-            "state": "danmark",
-            "postcode": 88520
-        }
-    }
+    // {
+    //     "email": "christoffer.christiansen@example.com",
+    //     "gender": "male",
+    //     "phone_number": "05761325",
+    //     "birthdate": 244475798,
+    //     "location": {
+    //         "street": "3391 pilevangen",
+    //         "city": "overby lyng",
+    //         "state": "danmark",
+    //         "postcode": 88520
+    //     }
+    // }
 ];

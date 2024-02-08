@@ -1,0 +1,6 @@
+.UsersList {
+    list-style: none;
+    padding: 10px;
+    margin: 25px;
+    border: gray 1px solid;
+}
