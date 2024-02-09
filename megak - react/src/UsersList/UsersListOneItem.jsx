@@ -1,7 +1,13 @@
 import './UsersListOneItem.css'
 
-export const UsersListOneItem =props => (
-    <li key={props.user.username} className="UsersListOneItem">
+export const UsersListOneItem =props => {
+
+    const personLiClicked = () => {
+        props.onRemoveItem(props.user.username)
+    }
+
+    return (
+    <li key={props.user.username} className="UsersListOneItem" onClick={personLiClicked}>
         <img
             className="UsersListOneItem__photo"
             src={`https://raw.githubusercontent.com/pixelastic/fakeusers/master/pictures/${props.user.picture}`}
@@ -12,4 +18,5 @@ export const UsersListOneItem =props => (
             <p className="UsersListOneItem__username">{props.user.username}</p>
         </div>
     </li>
-)
+    )
+}
