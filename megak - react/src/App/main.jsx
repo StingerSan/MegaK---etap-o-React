@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {StrictMode} from 'react'
 import ReactDOM from 'react-dom/client'
-import {UsersList} from "../UsersList/UsersList.jsx";
-import {people} from "../data/people.jsx";
-
+// import {Form} from "../components/Form/Form.jsx";
+import {ColorBox} from "../components/ColorBox/ColorBox.jsx";
+// import {UsersList} from "../UsersList/UsersList.jsx";
+// import {people} from "../data/people.jsx";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <>
-        <UsersList users={people}/>
-
-    </>
+    <StrictMode>
+        <>
+            <ColorBox/>
+        </>
+    </StrictMode>
 
 )
 
